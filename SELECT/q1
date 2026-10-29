@@ -1,5 +1,26 @@
 
-*Q1. Display the first_name and age of all customers.*
+Q1. Display the first_name and age of all customers.
 
 SELECT first_name, age
 FROM Customers;
+
+
+Q2. Display all customers whose age is greater than 25.
+
+  
+SELECT first_name, age
+FROM Customers
+WHERE age>25;
+
+Q3. Display the item and amount from Orders where the amount is greater than 500.
+
+  
+SELECT item, amount
+FROM Orders
+WHERE amount>500;
+
+Q4. Display all customers who are from the USA.
+  
+SELECT first_name, last_name,country
+FROM Customers
+WHERE country='USA';

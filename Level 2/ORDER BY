@@ -1,0 +1,20 @@
+Q5. Display all customers ordered by age from lowest to highest.
+
+SELECT first_name, last_name, age 
+FROM Customers 
+ORDER BY age ASC;
+
+
+Q6. Display all orders ordered by amount from highest to lowest.
+
+SELECT first_name, last_name, age 
+FROM Customers 
+ORDER BY age DESC;
+
+
+
+Q7. Display only item and amount, ordered by amount from lowest to highest.
+
+SELECT item, amount 
+FROM Orders 
+ORDER BY amount ASC;

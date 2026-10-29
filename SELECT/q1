@@ -1,5 +1,5 @@
 
-**Q1. Display the first_name and age of all customers.**
+*Q1. Display the first_name and age of all customers.*
 
 SELECT first_name, age
 FROM Customers;

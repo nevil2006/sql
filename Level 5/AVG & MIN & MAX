@@ -1,0 +1,23 @@
+
+Find the average order amount.
+
+SELECT item, AVG(amount) AS AVG_amount
+FROM Orders
+
+Find the highest order amount.
+
+SELECT item, MAX(amount) AS AVG_amount
+FROM Orders
+
+
+Find the lowest order amount.
+
+SELECT item, MIN(amount) AS AVG_amount
+FROM Orders
+
+
+Find the average age of customers from each country.
+
+SELECT customer_id, AVG(age) AS AVG_amount,country
+FROM Customers
+GROUP BY country;

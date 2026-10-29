@@ -1,0 +1,12 @@
+Q8. Find how many orders each customer_id has made.
+
+SELECT customer_id, COUNT(order_id) AS total_orders
+FROM Orders
+GROUP BY customer_id;
+
+
+Q9. Find how many times each item appears in the Orders table.
+
+SELECT item, COUNT(item) AS item_load
+FROM Orders
+GROUP BY item;

@@ -1,0 +1,11 @@
+Q10. Find the total amount spent by each customer.
+
+SELECT customer_id, SUM(amount) AS total_amount
+FROM Orders
+GROUP BY customer_id;
+
+Find the total amount for each item
+
+SELECT item, SUM(amount) AS total_amount
+FROM Orders
+GROUP BY item;

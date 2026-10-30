@@ -1,0 +1,4 @@
+Display the first_name, last_name, and country of all customers.
+
+SELECT first_name,last_name,country
+FROM Customers;

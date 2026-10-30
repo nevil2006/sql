@@ -1,0 +1,5 @@
+Find customers whose age is greater than 25.
+
+SELECT first_name,last_name,country,age
+FROM Customers
+WHERE age > 25;
